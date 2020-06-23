@@ -26,3 +26,4 @@ document.write( '<h1>' + status + '</h1>');
    var status = 'NOT Authorized';
     document.write( '<p class="not">' + status + '</p>');
 }
+

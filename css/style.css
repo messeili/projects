@@ -72,7 +72,7 @@ h1 {
 .not {
     color: white;
     font-size: 100px;
-    display: inline-block;
+    display: inline;
     background-color: red;
     margin-left: 200px;
     border: black;

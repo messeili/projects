@@ -1,0 +1,61 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+body{
+    background-image: url("https://blusignalsystems.com/wp-content/uploads/2016/12/Savin-NY-Website-Background-Web1.jpg");
+}
+
+h1 {
+    color: blue;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    padding-top: 20px ;
+}
+.logo-name{
+    height: 200px;
+}
+
+ a {
+    text-decoration: none;
+    color: black ;
+}
+
+li {
+    display: inline;
+    font-size: 25px;
+    padding-right: 80px;
+    
+}
+
+.first {
+    height: 300px;
+    width: 600px;
+}
+.new{
+    height: 300px;
+    width: 550px;
+    padding-left: 10px;
+
+}
+
+.pic{
+    display: inline;
+    }
+
+
+nav{
+    background-color: cornflowerblue;
+    display: inline;
+    
+}
+
+p{
+    text-align: justify;
+    text-size-adjust: 20px;
+    display: inline-block;
+    width: 1600px;
+}

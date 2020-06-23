@@ -57,5 +57,23 @@ p{
     text-align: justify;
     text-size-adjust: 20px;
     display: inline-block;
-    width: 1600px;
+    width: 1700px;
+}
+
+h1 {
+    color: green;
+    font-size: 100px;
+    display: inline;
+    background-color: yellow;
+    margin-left: 200px;
+    border: black;
+}
+
+.not {
+    color: white;
+    font-size: 100px;
+    display: inline-block;
+    background-color: red;
+    margin-left: 200px;
+    border: black;
 }

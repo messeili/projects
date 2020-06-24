@@ -38,7 +38,47 @@ function clean(){
     }
 }
 
-welcome()
-commit()
-reuslt()
-clean()
+function makeid(length) {
+    var result           = '';
+    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    var charactersLength = characters.length;
+    for ( var i = 0; i < length; i++ ) {
+       result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    }
+    return result;
+ }
+function random(){
+    var userinput;
+    var id = makeid(5);
+while(userinput!==id){
+       for(var i=1;i<=3;i++){
+        var userinput = prompt('Please enter the generated code: '+id);
+        if (userinput==id){
+            alert("Welcome");
+            break;
+        }else if(i<=3){
+            alert("You enter it WRONG {{{ "+ i + " }}} time")
+            }   
+             
+           
+        }
+        if (userinput!==id){
+           alert('YOU CANNOT ENTER THIS WEBSITE!!!!!!!!')
+            window.close(); 
+            break;
+
+        }    
+       
+        
+}
+    
+}
+
+
+
+//welcome()
+//commit()
+//reuslt()
+//clean()
+random()
+

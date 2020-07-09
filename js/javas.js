@@ -76,9 +76,11 @@ while(userinput!==id){
 
 
 
-//welcome()
-//commit()
-//reuslt()
-//clean()
+welcome()
+commit()
+reuslt()
 random()
+
+//clean()
+
 
